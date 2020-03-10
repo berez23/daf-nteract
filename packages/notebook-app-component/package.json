@@ -27,7 +27,7 @@
     "@nteract/transform-model-debug": "^5.0.0",
     "@nteract/transform-plotly": "^5.0.0",
     "@nteract/transform-vdom": "^4.0.2",
-    "@nteract/transform-vega": "^5.0.1",
+    "@nteract/transform-vega": "^7.0.0",
     "@nteract/types": "^4.0.2",
     "@types/memoize-one": "^4.1.0",
     "date-fns": "^1.29.0",
