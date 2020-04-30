@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "nteractDesktop": "src/index.tsx",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "repository": "https://github.com/nteract/nteract/tree/master/packages/transform-plotly",
   "author": "",
   "publishConfig": {
@@ -13,10 +16,12 @@
   },
   "dependencies": {
     "@nteract/plotly": "^1.0.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "react": "^16.3.2"
   },
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "snyk": true
 }
