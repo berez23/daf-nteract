@@ -4,7 +4,10 @@
   "description": "A manager for the filesystem aspects of Juyter kernels",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "repository": "https://github.com/nteract/nteract/tree/master/packages/fs-kernels",
   "keywords": [
     "jupyter",
@@ -26,6 +29,8 @@
     "mkdirp": "^0.5.1",
     "pidusage": "^2.0.17",
     "portfinder": "^1.0.20",
-    "uuid": "^3.3.2"
-  }
+    "uuid": "^3.3.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
