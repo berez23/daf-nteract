@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@nteract/transform-vega > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/data-explorer > react-color > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/transform-vega > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/data-explorer > react-color > reactcss > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/data-explorer > react-color > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/outputs > styled-components > @babel/traverse > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/outputs > styled-components > babel-plugin-styled-components > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/data-explorer > react-color > reactcss > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/outputs > styled-components > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/outputs > styled-components > @babel/traverse > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/outputs > styled-components > babel-plugin-styled-components > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/jupyter-widgets > @jupyter-widgets/controls > @jupyter-widgets/base > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/outputs > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/outputs > styled-components > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/outputs > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/outputs > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/outputs > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/outputs > styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
+    - '@nteract/notebook-app-component > @nteract/outputs > styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T02:46:44.913Z'
