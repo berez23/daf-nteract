@@ -9,7 +9,9 @@
     "build:watch": "webpack --watch",
     "dev": "concurrently \"npm run hot\" \"jupyter nteract --dev\"",
     "hot": "webpack-dev-server --hot",
-    "prepublishOnly": "echo it would be nice to npm run build once we are ready"
+    "prepublishOnly": "echo it would be nice to npm run build once we are ready",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "publishConfig": {
     "access": "public"
@@ -54,6 +56,8 @@
     "rxjs": "^6.3.3",
     "url-join": "^4.0.0",
     "webfontloader": "^1.6.28",
-    "webpack": "^4.17.2"
-  }
+    "webpack": "^4.17.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
