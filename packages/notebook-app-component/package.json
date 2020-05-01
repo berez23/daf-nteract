@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "nteractDesktop": "src/index.ts",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "repository": "https://github.com/nteract/nteract/tree/master/packages/notebook-app-component",
   "publishConfig": {
     "access": "public"
@@ -35,12 +38,14 @@
     "react-dnd-html5-backend": "^7.0.0",
     "react-hot-loader": "^4.1.2",
     "react-redux": "^6.0.0",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "immutable": "^4.0.0-rc.12",
     "react": "^16.3.2"
   },
   "author": "Kyle Kelley <rgbkrk@gmail.com>",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "snyk": true
 }
