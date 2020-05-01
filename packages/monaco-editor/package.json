@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "nteractDesktop": "src/index.ts",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "repository": "https://github.com/nteract/nteract/tree/master/packages/monaco-editor",
   "keywords": [
     "nteract",
@@ -23,7 +26,8 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "monaco-editor": "^0.16.0",
-    "monaco-editor-webpack-plugin": "^1.5.1"
+    "monaco-editor-webpack-plugin": "^1.5.1",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "immutable": "^4.0.0-rc.12",
@@ -31,5 +35,6 @@
     "react-dom": "^16.3.2"
   },
   "author": "Kyle Kelley <rgbkrk@gmail.com>",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "snyk": true
 }
