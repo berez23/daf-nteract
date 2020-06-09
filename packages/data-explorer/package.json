@@ -30,7 +30,7 @@
     "react-color": "^2.14.1",
     "react-hot-loader": "^4.1.2",
     "react-table": "^6.8.6",
-    "react-table-hoc-fixed-columns": "2.0.1",
+    "react-table-hoc-fixed-columns": "2.3.1",
     "semiotic": "^1.19.1",
     "styled-components": "^4.1.3"
   },
