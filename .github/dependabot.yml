@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react-docgen-typescript
+    versions:
+    - 1.20.5
+    - 1.21.0
+  - dependency-name: monaco-editor
+    versions:
+    - 0.21.3
+  - dependency-name: lodash-es
+    versions:
+    - 4.17.20
+  - dependency-name: "@types/react-dom"
+    versions:
+    - 16.9.9
+  - dependency-name: react-markdown
+    versions:
+    - 5.0.2
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  - dependency-name: styled-components
+    versions:
+    - 4.4.1
