@@ -192,7 +192,7 @@
     "jest-junit": "^6.0.0",
     "jupyter-paths": "^2.0.0",
     "kernelspecs": "^2.0.0",
-    "lerna": "^3.0.0",
+    "lerna": "^4.0.0",
     "lint-staged": "^8.0.0",
     "lodash": "^4.17.4",
     "lodash-webpack-plugin": "^0.11.4",
